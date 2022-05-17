@@ -20,13 +20,22 @@ public class Main {
 //        System.out.println("Разница в весе боксеров " + (weightBoxer_2 - weightBoxer_1) + " кг.");
 
 //        задание 3
+//
+//        int bananaWeight = 80;
+//        int milkWeight = 105;
+//        int ice_creamWeight = 100;
+//        int eggWeight = 70;
+//        float cocktailWeight = bananaWeight * 5 + milkWeight * 2 + ice_creamWeight * 2 + eggWeight * 4;
+//        System.out.println("Вес коктейля " + cocktailWeight + " грамм, или " + cocktailWeight/1000 + " кг.");
+//
+//        задание 4
 
-        int bananaWeight = 80;
-        int milkWeight = 105;
-        int ice_creamWeight = 100;
-        int eggWeight = 70;
-        float cocktailWeight = bananaWeight * 5 + milkWeight * 2 + ice_creamWeight * 2 + eggWeight * 4;
-        System.out.println("Вес коктейля " + cocktailWeight + " грамм, или " + cocktailWeight/1000 + " кг.");
-
+        int grForDay_1 = 250;
+        int grForDay_2 = 500;
+        int targetWeight = 7000;
+        double average = targetWeight / ((grForDay_1 + grForDay_2) / 2D);
+        System.out.println("Теряя по " + grForDay_1 + " грамм, нужно: " + targetWeight/grForDay_1 + " дней.");
+        System.out.println("Теряя по " + grForDay_2 + " грамм, нужно: " + targetWeight/grForDay_2 + " дней.");
+        System.out.println("В среднем " + average + " дней.");
     }
 }
