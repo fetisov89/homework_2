@@ -30,12 +30,29 @@ public class Main {
 //
 //        задание 4
 
-        int grForDay_1 = 250;
-        int grForDay_2 = 500;
-        int targetWeight = 7000;
-        double average = targetWeight / ((grForDay_1 + grForDay_2) / 2D);
-        System.out.println("Теряя по " + grForDay_1 + " грамм, нужно: " + targetWeight/grForDay_1 + " дней.");
-        System.out.println("Теряя по " + grForDay_2 + " грамм, нужно: " + targetWeight/grForDay_2 + " дней.");
-        System.out.println("В среднем " + average + " дней.");
+//        int grForDay_1 = 250;
+//        int grForDay_2 = 500;
+//        int targetWeight = 7000;
+//        double average = targetWeight / ((grForDay_1 + grForDay_2) / 2D);
+//        System.out.println("Теряя по " + grForDay_1 + " грамм, нужно: " + targetWeight/grForDay_1 + " дней.");
+//        System.out.println("Теряя по " + grForDay_2 + " грамм, нужно: " + targetWeight/grForDay_2 + " дней.");
+//        System.out.println("В среднем " + average + " дней.");
+//
+//        задание 5
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double mashaIndexing = masha * 1.1;
+        double denisIndexing = denis * 1.1;
+        double kristinaIndexing = kristina * 1.1;
+        double differenceYearMasha = mashaIndexing * 12 - masha * 12;
+        double differenceYearDenis = denisIndexing * 12 - denis * 12;
+        double differenceYearKristina = kristinaIndexing * 12 - kristina * 12;
+        System.out.println("Маша теперь получает " + mashaIndexing +  " Рублей. Годовой доход вырос на " + differenceYearMasha + " руб.");
+        System.out.println("Денис теперь получает " + denisIndexing +  " Рублей. Годовой доход вырос на " + differenceYearDenis + " руб.");
+        System.out.println("Кристина теперь получает " + kristinaIndexing +  " Рублей. Годовой доход вырос на " + differenceYearKristina + " руб.");
+
+
     }
 }
